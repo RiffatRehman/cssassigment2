@@ -7,14 +7,13 @@
  body{
   background-image: url("./imges/gif.gif"); /* The image used */
   background-color: #cccccc; /* Used if the image is unavailable */
-  background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover
  }
 
 .main{
     max-width: 1800px;
-    height: 100vh;
+   max-height:  100vh;
     margin: 0 auto;
     display: flex;
     justify-content: flex-start;
@@ -22,14 +21,14 @@
   }
 .main .child1{
    width:  20%;
-  height: 100vh;
-  position: fixed;
+  max-height: 100%;
   background-color: skyblue;
- color: black;
-  padding: 50px 40px 20px;
+  color: black;
+  padding: 50px 20px 20px;
   line-height: 1.8rem;
   border-right: black;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
   
 }
 .main .child2{
@@ -37,8 +36,8 @@
     height: 100vh;
     background-color: transparent;
     color: black;
-    padding-left: 420px;
-    padding-top: 250px;
+    padding-left: 20px;
+    padding-top: 40px;
    
      
   
@@ -52,8 +51,8 @@
 }
 
 .img1{
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   margin: 10px;
   border: 2px solid black;
   border-radius: 5px;
@@ -84,7 +83,7 @@
 
 .card{
  width: 250px;
-  height:260px;
+  height:250px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   display: flex;
   flex-direction: column;
@@ -106,7 +105,7 @@
 
  .main .child2{
   display: flex;
-  justify-content: center;
+  justify-content: start;
   flex-wrap: wrap;
   gap: 2;
   
