@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+ body{
+  background-image: url("./imges/gif.gif"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover
+ }
+
+.main{
+    max-width: 1800px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+     
+  }
+.main .child1{
+   width:  20%;
+  height: 100vh;
+  position: fixed;
+  background-color: skyblue;
+ color: black;
+  padding: 50px 40px 20px;
+  line-height: 1.8rem;
+  border-right: black;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
+.main .child2{
+    width: 90%;
+    height: 100vh;
+    background-color: transparent;
+    color: black;
+    padding-left: 420px;
+    padding-top: 250px;
+   
+     
+  
+    
+}
+
+.para1{
+  padding: 40px 20px;
+  text-align: justify;
+  line-height: 1rem;
+}
+
+.img1{
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 1.3s ease;
+    
+}
+.img1:hover{
+  background-color: black;
+  
+}
+
+ 
+.para2{
+  text-align: center;
+  font-size: 3em;
+}
+
+.img2{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+}
+
+.card{
+ width: 250px;
+  height:260px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:1 ;
+  background-color: skyblue;
+  border: 2px solid black;
+  border-radius: 5px;
+  transition: 1.3s ease;
+
+}
+.card p{
+  width: 90%;
+
+}
+.card:hover{
+  background-color: silver;
+}
+
+ .main .child2{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2;
+  
+  
+ }
+  
+
+
